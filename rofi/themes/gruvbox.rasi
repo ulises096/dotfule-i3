@@ -1,0 +1,42 @@
+* {
+    bg: #282828;
+    fg: #ebdbb2;
+    bg-alt: #3c3836;
+    accent: #d79921;
+    urgent: #cc241d;
+    selected: #458588;
+}
+
+window {
+    background-color: @bg;
+}
+
+mainbox {
+    background-color: @bg;
+}
+
+listview {
+    background-color: @bg;
+    spacing: 2px;
+}
+
+element {
+    background-color: @bg;
+    text-color: @fg;
+}
+
+element selected {
+    background-color: @selected;
+    text-color: @bg;
+}
+
+entry {
+    background-color: @bg-alt;
+    text-color: @fg;
+}
+
+prompt {
+    background-color: @bg-alt;
+    text-color: @accent;
+}
+

@@ -1,0 +1,39 @@
+* {
+    bg:    #282828;
+    fg:    #ebdbb2;
+    red:   #cc241d;
+    green: #98971a;
+    yellow:#d79921;
+    blue:  #458588;
+    purple:#b16286;
+    aqua:  #689d6a;
+    gray:  #a89984;
+}
+
+window {
+    background-color: @bg;
+    border: 2px solid @green;
+}
+
+mainbox {
+    background-color: @bg;
+}
+
+listview {
+    background-color: @bg;
+    spacing: 5px;
+}
+
+element {
+    background-color: @bg;
+    text-color: @fg;
+}
+
+element selected {
+    background-color: @green;
+    text-color: @bg;
+}
+
+textbox {
+    text-color: @fg;
+}
